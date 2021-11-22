@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ULONGTEA", "ULONGTEA\ULONGTEA.csproj", "{4617F1A0-7B32-4427-A6EE-0DB5342BC1EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerStage", "InnerStage\InnerStage.csproj", "{02F8C6C3-DEE1-4850-9AD3-0E442E6DBF8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4617F1A0-7B32-4427-A6EE-0DB5342BC1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4617F1A0-7B32-4427-A6EE-0DB5342BC1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4617F1A0-7B32-4427-A6EE-0DB5342BC1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4617F1A0-7B32-4427-A6EE-0DB5342BC1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F8C6C3-DEE1-4850-9AD3-0E442E6DBF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F8C6C3-DEE1-4850-9AD3-0E442E6DBF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F8C6C3-DEE1-4850-9AD3-0E442E6DBF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F8C6C3-DEE1-4850-9AD3-0E442E6DBF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6D54554-5C14-44E5-88A3-3B5F6C2B47DD}
+	EndGlobalSection
+EndGlobal
